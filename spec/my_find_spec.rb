@@ -19,7 +19,5 @@ describe "#my_find" do
  
 
 
-  it "returns nil when the block condition is not met" do
-    expect(my_find(collection) {|i| i % 200 == 0}).to eq(nil)
-  end
+
 end
